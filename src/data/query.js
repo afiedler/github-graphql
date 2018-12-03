@@ -9,8 +9,6 @@ export const trendingRepositoriesGQLQuery = gql`
         hasNextPage
         hasPreviousPage
       }
-
-      repositoryCount
       edges {
         node {
           ... on Repository {
